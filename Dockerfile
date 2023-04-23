@@ -1,5 +1,5 @@
 FROM node:lts-alpine
-WORKDIR /usr/src/app
+WORKDIR /usr/src/app/docker
 COPY ["package.json", "./"]
 RUN npm install
 COPY . .
